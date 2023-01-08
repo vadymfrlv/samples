@@ -1,12 +1,3 @@
-let age = 50;
-let name = 'Max';
-let toggle = true;
-let empty = null;
-let notInitialize = undefined;
-let callback = a => {
-  return 100 + a;
-};
-
 const button = document.querySelector('button');
 const input1 = document.getElementById('num1')! as HTMLInputElement;
 const input2 = document.getElementById('num2')! as HTMLInputElement;
